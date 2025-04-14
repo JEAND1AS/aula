@@ -24,12 +24,12 @@ export const revalidate = 60;
 
 export default function Home(){ //Aqui é a página home
 
-  const ranbomNumber =Math.random() * 10;
+  const randomNumber =Math.random() * 10;
   return (
     <div className="flex flex-col justify-center items-center h-screen text-7xl font-bold text-white">
       <h1>Página HOME</h1>
       <br />
-      <h2>Número gerado: {ranbomNumber}</h2>
+      <h2>Número gerado: {randomNumber}</h2>
     </div>
   )
 }
